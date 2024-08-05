@@ -24,7 +24,7 @@ public class showItem extends AppCompatActivity {
 
         ImageView imageView = (ImageView)findViewById(R.id.imageView);
         Intent intent = getIntent();
-        name = intent.getStringExtra("name");
+        name = intent.getStringExtra("name");/cd 
         Price = intent.getStringExtra("Price");
 
 
